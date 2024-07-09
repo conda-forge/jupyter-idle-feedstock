@@ -29,51 +29,51 @@ Current release info
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter--idle-green.svg)](https://anaconda.org/conda-forge/jupyter-idle) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter-idle.svg)](https://anaconda.org/conda-forge/jupyter-idle) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter-idle.svg)](https://anaconda.org/conda-forge/jupyter-idle) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter-idle.svg)](https://anaconda.org/conda-forge/jupyter-idle) |
 
-Installing jupyter-idle
+Installing jupyter-activity-monitor-extension
 =======================
 
-Installing `jupyter-idle` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `jupyter-activity-monitor-extension` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `jupyter-idle` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `jupyter-activity-monitor-extension` can be installed with `conda`:
 
 ```
-conda install jupyter-idle
-```
-
-or with `mamba`:
-
-```
-mamba install jupyter-idle
-```
-
-It is possible to list all of the versions of `jupyter-idle` available on your platform with `conda`:
-
-```
-conda search jupyter-idle --channel conda-forge
+conda install jupyter-activity-monitor-extension
 ```
 
 or with `mamba`:
 
 ```
-mamba search jupyter-idle --channel conda-forge
+mamba install jupyter-activity-monitor-extension
+```
+
+It is possible to list all of the versions of `jupyter-activity-monitor-extension` available on your platform with `conda`:
+
+```
+conda search jupyter-activity-monitor-extension --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search jupyter-activity-monitor-extension --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search jupyter-idle --channel conda-forge
+mamba repoquery search jupyter-activity-monitor-extension --channel conda-forge
 
-# List packages depending on `jupyter-idle`:
-mamba repoquery whoneeds jupyter-idle --channel conda-forge
+# List packages depending on `jupyter-activity-monitor-extension`:
+mamba repoquery whoneeds jupyter-activity-monitor-extension --channel conda-forge
 
-# List dependencies of `jupyter-idle`:
-mamba repoquery depends jupyter-idle --channel conda-forge
+# List dependencies of `jupyter-activity-monitor-extension`:
+mamba repoquery depends jupyter-activity-monitor-extension --channel conda-forge
 ```
 
 
