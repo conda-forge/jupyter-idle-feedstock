@@ -1,5 +1,5 @@
-About jupyter-idle-feedstock
-============================
+About jupyter-activity-monitor-extension-feedstock
+==================================================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter-idle-feedstock/blob/main/LICENSE.txt)
 
@@ -27,53 +27,53 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter--idle-green.svg)](https://anaconda.org/conda-forge/jupyter-idle) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter-idle.svg)](https://anaconda.org/conda-forge/jupyter-idle) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter-idle.svg)](https://anaconda.org/conda-forge/jupyter-idle) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter-idle.svg)](https://anaconda.org/conda-forge/jupyter-idle) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter--activity--monitor--extension-green.svg)](https://anaconda.org/conda-forge/jupyter-activity-monitor-extension) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter-activity-monitor-extension.svg)](https://anaconda.org/conda-forge/jupyter-activity-monitor-extension) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter-activity-monitor-extension.svg)](https://anaconda.org/conda-forge/jupyter-activity-monitor-extension) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter-activity-monitor-extension.svg)](https://anaconda.org/conda-forge/jupyter-activity-monitor-extension) |
 
-Installing jupyter-idle
-=======================
+Installing jupyter-activity-monitor-extension
+=============================================
 
-Installing `jupyter-idle` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `jupyter-activity-monitor-extension` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `jupyter-idle` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `jupyter-activity-monitor-extension` can be installed with `conda`:
 
 ```
-conda install jupyter-idle
-```
-
-or with `mamba`:
-
-```
-mamba install jupyter-idle
-```
-
-It is possible to list all of the versions of `jupyter-idle` available on your platform with `conda`:
-
-```
-conda search jupyter-idle --channel conda-forge
+conda install jupyter-activity-monitor-extension
 ```
 
 or with `mamba`:
 
 ```
-mamba search jupyter-idle --channel conda-forge
+mamba install jupyter-activity-monitor-extension
+```
+
+It is possible to list all of the versions of `jupyter-activity-monitor-extension` available on your platform with `conda`:
+
+```
+conda search jupyter-activity-monitor-extension --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search jupyter-activity-monitor-extension --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search jupyter-idle --channel conda-forge
+mamba repoquery search jupyter-activity-monitor-extension --channel conda-forge
 
-# List packages depending on `jupyter-idle`:
-mamba repoquery whoneeds jupyter-idle --channel conda-forge
+# List packages depending on `jupyter-activity-monitor-extension`:
+mamba repoquery whoneeds jupyter-activity-monitor-extension --channel conda-forge
 
-# List dependencies of `jupyter-idle`:
-mamba repoquery depends jupyter-idle --channel conda-forge
+# List dependencies of `jupyter-activity-monitor-extension`:
+mamba repoquery depends jupyter-activity-monitor-extension --channel conda-forge
 ```
 
 
@@ -118,17 +118,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating jupyter-idle-feedstock
-===============================
+Updating jupyter-activity-monitor-extension-feedstock
+=====================================================
 
-If you would like to improve the jupyter-idle recipe or build a new
+If you would like to improve the jupyter-activity-monitor-extension recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/jupyter-idle-feedstock are
+Note that all branches in the conda-forge/jupyter-activity-monitor-extension-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
