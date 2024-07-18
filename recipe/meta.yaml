@@ -23,6 +23,7 @@ requirements:
     - jupyter_server >=2.0.0
     - tornado
     - jmespath
+    - requests
 
 test:
   imports:
