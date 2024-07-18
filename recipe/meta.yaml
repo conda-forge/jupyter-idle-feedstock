@@ -1,5 +1,5 @@
 {% set name = "jupyter-activity-monitor-extension" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_activity_monitor_extension-{{ version }}.tar.gz
-  sha256: d8e68bf9087eb729c388018de574fe6a3005aebe212239de406e504821842fe8
+  sha256: e5c8d2f28d184c15a9f84df2f714b77ae546041fadeba83cd45817118a92e0a6
 
 build:
   noarch: python
@@ -22,6 +22,7 @@ requirements:
     - python >=3.9
     - jupyter_server >=2.0.0
     - tornado
+    - jmespath
 
 test:
   imports:
@@ -40,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - rahrad123
+    - agupta01
