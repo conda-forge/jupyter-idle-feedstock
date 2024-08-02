@@ -1,5 +1,5 @@
 {% set name = "jupyter-activity-monitor-extension" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_activity_monitor_extension-{{ version }}.tar.gz
-  sha256: e5c8d2f28d184c15a9f84df2f714b77ae546041fadeba83cd45817118a92e0a6
+  sha256: c31285019a1702eef72735d81268ad3ab2e16d203e66dfc61f265f9f9d91d72b
 
 build:
   noarch: python
