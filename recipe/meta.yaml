@@ -6,20 +6,20 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_activity_monitor_extension-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jupyter_activity_monitor_extension-{{ version }}.tar.gz
   sha256: 879c7a570d35eb60da4fbc18a32ffc8832b7a7622110ee3bd6085401a7509e4d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - jupyter_server >=2.0.0
     - tornado
     - jmespath
@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://aws.amazon.com/sagemaker/
