@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@agupta01](https://github.com/agupta01/)
 * [@rahrad123](https://github.com/rahrad123/)
-
+* [@brollinzAws](https://github.com/brollinzAws)
+* [@edwardps](https://github.com/edwardps)
