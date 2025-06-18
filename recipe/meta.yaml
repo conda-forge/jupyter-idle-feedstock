@@ -18,9 +18,11 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - pyzmq <=26.4.0
   run:
     - python >={{ python_min }}
     - jupyter_server >=2.0.0
+    - pyzmq <=26.4.0
     - tornado
     - jmespath
     - requests
