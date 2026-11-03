@@ -18,7 +18,6 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
   run:
     - python >={{ python_min }}
     - jupyter_server >=2.0.0
